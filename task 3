@@ -1,0 +1,64 @@
+// Hacker Rank Hello world
+    #include <stdio.h>
+    #include <string.h>
+    #include <math.h>
+    #include <stdlib.h>
+    
+    int main() 
+    {
+    	
+        char s[100];
+        scanf("%[^\n]%*c", &s);
+      	printf("Hello, World!\n");
+        printf("Welcome to C programming.");
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+        return 0;
+    }
+
+// Hacker rank "Playing with charchters"
+  
+      #include <stdio.h>
+      #include <string.h>
+      #include <math.h>
+      #include <stdlib.h>
+      
+      int main() 
+      {
+      
+          /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+          char ch ;
+          char s[ 100];
+          char sen [100];
+          scanf("%c",&ch );
+          printf("%c",ch);
+          scanf("\n");
+          printf("\n");
+          scanf("%s",&s);
+          printf("%s",s);
+          printf("\n");
+          scanf("\n");
+          scanf("%[^\n]%*s",&sen);
+          printf("%s",sen);
+          
+          return 0;
+      }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// code for win (2)
+int main ()
+{
+	int a ,b;
+	int sum , sub , multi , div;
+	printf("Enter two numbers:");
+	scanf("%d %d", &a, &b);
+	div = a/b;
+	multi = a*b;
+	sum = a+b;
+	sub = a-b;
+	printf("Sum  is %d\n", sum);
+	printf("Sub  is %d\n",  sub);
+	printf("Multi is %d\n", multi);
+	printf("divison is %d", div);
+}
+
+// 
