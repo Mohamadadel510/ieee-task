@@ -44,7 +44,7 @@
       }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// code for win (2)
+// code for win (3)
 int main ()
 {
 	int a ,b;
@@ -61,4 +61,119 @@ int main ()
 	printf("divison is %d", div);
 }
 
-// 
+// code for win (4)
+	int main ()
+	{
+	float len , breadth , parameter;
+	printf("Enter the length and breadth of the rectangle : ");
+	scanf("%f %f", &len, &breadth);
+	parameter = 2*(len + breadth);
+	printf("The parameter of the rectangle is : %f", parameter);
+	}
+
+// code for win (5)
+	int main ()
+	{
+	float len , breadth , area;
+	printf("Enter the length and breadth of the rectangle : ");
+	scanf("%f %f", &len, &breadth);
+	area = len  *breadth;
+	printf("The AREA of the rectangle is : %f", area);
+	}
+
+// code for win (6)
+	int main ()
+	{
+	float diameter , area , radius , circumference;
+	printf("Enter the radius of the circle : ");
+	scanf("%f ", &radius);
+	circumference = 2 * 3.14 * radius;
+	diameter = 2 * radius;
+	area = 3.14 * radius * radius;
+	printf(the circumference of the circle is : %f \n", circumference);
+	printf(the diameter of the circle is : %f \n", diameter);
+	printf(the area of the circle is : %f \n", area);
+	}
+// code for win (7)
+	int main ()
+	{
+		int length , kilo , meter ;
+	
+	 printf("Enter length in centimeters: ");
+	 scanf("%d", &length);
+	 meter = length / 100;
+	 kilo = meter / 1000;
+	 printf("Length in meters: %d\n", meter);
+	 printf("Length in kilometers: %d\n", kilo);
+	}
+// code for win (8)
+	int main ()
+	{
+		float temp, kelvin;
+	
+	 printf("Enter temperature  in celsius: ");
+	 scanf("%f", &temp);
+	 kelvin = temp + 273.15;
+	 printf("Tempurature in kelvin %f\n", kelvin);
+	 
+	}
+// code for win (10)
+	#include <stdio.h>
+	
+	int main ()
+	{
+		float day , week ,year ;
+	
+	 printf("Enter number of days: ");
+	 scanf("%f", &day);
+	week = day / 7;
+	year = day / 365;
+	 printf("weeks : %f\n", week);
+	 printf("years : %f\n", year);
+	 
+	}
+// code for win (11)
+	int main ()
+	{
+		float base , exponent , result;
+	
+	 printf("Enter base: ");
+	 scanf("%f", &base);
+	 printf("Enter exponent: ");
+	 scanf("%f", &exponent);
+	for (int i = 1; i <= exponent; i++){
+		result = result * base;
+	}
+	 printf("Result: %f\n", result);
+	 
+	 return 0;
+	}
+// code for win (12)
+	
+	int main ()
+{
+	float number , result;
+
+ printf("Enter number: ");
+ scanf("%f", &number);
+ result = number * number;
+ printf("Result: %f\n", result);
+ 
+ return 0;
+}
+
+// code for win (16)
+	int main ()
+	{
+		float m1 , m2 , m3 , m4 , m5 , total , avg , percentage;
+	
+	 printf("Enter your marks : ");
+	 scanf("%f ,%f ,%f ,%f ,%f", &m1 , &m2 , &m3 , &m4 , &m5);
+	 total  = m1 + m2 + m3 + m4 + m5;
+	 avg = total / 5;
+	 percentage = (total / 500) * 100;
+	 printf("Total marks = %f\n", total);
+	 printf("Average marks = %f\n", avg);
+	 printf("Percentage = %f\n", percentage);
+	 return 0;
+	}
